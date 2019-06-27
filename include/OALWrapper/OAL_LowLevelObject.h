@@ -20,9 +20,12 @@
 
 class iOAL_LowLevelObject : public iOAL_LoggerObject
 {
-public:
+protected:
+	ALuint mlObjectId;
+	bool mbStatus;
 
-	iOAL_LowLevelObject(const std::string& asObjType) {}
+public:
+	iOAL_LowLevelObject(const std::string& asObjType) : mbStatus(false), mlObjectId(0) {}
 	~iOAL_LowLevelObject() {}
 
 	////////////////////////////////////////////
@@ -46,10 +49,6 @@ public:
 	ALuint* GetObjectIDPointer() { return &mlObjectId; }
 
 	bool GetStatus() { return mbStatus; }
-
-protected:
-	ALuint mlObjectId;
-	bool mbStatus;
 };
 
 

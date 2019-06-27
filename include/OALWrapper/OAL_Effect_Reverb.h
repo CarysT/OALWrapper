@@ -11,6 +11,7 @@
 #include "OAL_Effect.h"
 #include "OAL_Types.h"
 #include "OAL_Helper.h"
+#include "AL/efx.h"
 
 class cOAL_Effect_Reverb : public cOAL_Effect
 {
