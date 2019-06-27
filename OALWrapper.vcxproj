@@ -68,6 +68,7 @@
     </Link>
     <Lib>
       <OutputFile>lib\OALWrapper.lib</OutputFile>
+      <IgnoreSpecificDefaultLibraries>GLaux.lib</IgnoreSpecificDefaultLibraries>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -84,6 +85,7 @@
   <ItemGroup>
     <ClCompile Include="sources\OAL_AudioData.cpp" />
     <ClCompile Include="sources\OAL_Buffer.cpp" />
+    <ClCompile Include="sources\OAL_CustomStream.cpp" />
     <ClCompile Include="sources\OAL_Device.cpp" />
     <ClCompile Include="sources\OAL_Effect.cpp" />
     <ClCompile Include="sources\OAL_EffectSlot.cpp" />
@@ -108,6 +110,7 @@
   <ItemGroup>
     <ClInclude Include="include\OALWrapper\OAL_AudioData.h" />
     <ClInclude Include="include\OALWrapper\OAL_Buffer.h" />
+    <ClInclude Include="include\OALWrapper\OAL_CustomStream.h" />
     <ClInclude Include="include\OALWrapper\OAL_Device.h" />
     <ClInclude Include="include\OALWrapper\OAL_Effect.h" />
     <ClInclude Include="include\OALWrapper\OAL_EffectSlot.h" />

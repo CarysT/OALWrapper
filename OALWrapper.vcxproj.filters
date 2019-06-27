@@ -84,6 +84,9 @@
     <ClCompile Include="sources\OAL_WAVSample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sources\OAL_CustomStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\OALWrapper\OAL_AudioData.h">
@@ -156,6 +159,9 @@
       <Filter>Header Files\OALWrapper</Filter>
     </ClInclude>
     <ClInclude Include="include\OALWrapper\OAL_WAVSample.h">
+      <Filter>Header Files\OALWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OALWrapper\OAL_CustomStream.h">
       <Filter>Header Files\OALWrapper</Filter>
     </ClInclude>
   </ItemGroup>
